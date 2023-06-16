@@ -1,0 +1,10 @@
+id	name	country_id	province_id	area	population	province_capital	fips	subs	supers	eqs	ints	centroid	centroid_altitude
+LK-1	Western	LK	LK-1	3709.0	5850745	Colombo	CE36	['EC-01', 'EC-02', 'EC-03', 'LK-11', 'LK-12', 'LK-13']	[]	[]	[]	[6.83475266513655, 80.06699098051703]	65
+LK-2	Central	LK	LK-2	5584.0	2571557	Kandy	CE29	['EC-04', 'EC-05', 'EC-06', 'LK-21', 'LK-22', 'LK-23']	[]	[]	[]	[7.3240253926618895, 80.71779633296414]	707
+LK-3	Southern	LK	LK-3	5559.0	2477285	Galle	CE34	['EC-07', 'EC-08', 'EC-09', 'LK-31', 'LK-32', 'LK-33']	[]	[]	[]	[6.2214499262787095, 80.7207042920801]	127
+LK-4	Northern	LK	LK-4	8882.0	1061315	Jaffna	CE38	['EC-10', 'EC-11']	[]	[]	[]	[9.131180276515773, 80.34150480317628]	60
+LK-5	Eastern	LK	LK-5	9951.0	1555510	Trincomali	CE37	['EC-12', 'EC-13', 'EC-14', 'LK-51', 'LK-52', 'LK-53']	[]	[]	[]	[7.742857040636286, 81.40758944734519]	47
+LK-6	North Western	LK	LK-6	7812.0	2380861	Puttalam	CE32	['EC-15', 'EC-16', 'LK-61', 'LK-62']	[]	[]	[]	[7.785734008802703, 80.11026798697404]	49
+LK-7	North Central	LK	LK-7	10724.0	1266663	Anuradhapura	CE30	['EC-17', 'EC-18', 'LK-71', 'LK-72']	[]	[]	[]	[8.263272600478238, 80.67876925769406]	144
+LK-8	Uva	LK	LK-8	8488.0	1266463	Badulla	CE35	['EC-19', 'EC-20', 'LK-81', 'LK-82']	[]	[]	[]	[6.883153389367924, 81.2174874167779]	396
+LK-9	Sabaragamuwa	LK	LK-9	4902.0	1928655	Ratnapura	CE33	['EC-21', 'EC-22', 'LK-91', 'LK-92']	[]	[]	[]	[6.76060681462906, 80.49115398376571]	669
