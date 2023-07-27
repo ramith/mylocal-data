@@ -1,2 +1,2 @@
-id	name	country_id	area	population	hasc	fips
-LK	Sri Lanka	LK	65611.0	20359054	LK	CE
+id	name	country_id	area	population	hasc	fips	subs	supers	eqs	ints	centroid_altitude
+LK	Sri Lanka	LK	65611.0	20359054	LK	CE	['LK-1','LK-2','LK-3','LK-4','LK-5','LK-6','LK-7','LK-8','LK-9']	[]	[]	[]	259
