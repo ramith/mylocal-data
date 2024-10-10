@@ -13,5 +13,6 @@ COPY geo /usr/share/nginx/html/geo
 
 # Expose port 8080 since the unprivileged Nginx listens on 8080 by default
 EXPOSE 8080
+USER nginx
 
 CMD ["nginx", "-g", "daemon off;"]
