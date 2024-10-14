@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Wildcard Path API",
+    "version": "v1.0"
+  },
+  "servers": [
+    {
+      "url": "https://example.com"
+    }
+  ],
+  "paths": {
+    "/{wildcard*}": {
+      "parameters": [
+        {
+          "name": "wildcard",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "get": {
+        "operationId": "getWildcard",
+        "responses": {
+          "200": {
+            "description": "GET successful"
+          }
+        }
+      },
+      "head": {
+        "operationId": "headWildcard",
+        "responses": {
+          "200": {
+            "description": "Resource exists"
+          },
+          "404": {
+            "description": "Resource not found"
+          }
+        }
+      }
+    }
+  }
+}
